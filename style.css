@@ -1,0 +1,63 @@
+#welcome-section {
+  height: 100vh;
+  background-image: url(https://source.unsplash.com/aZhRG5i5rb0/1920x1080);
+  background-size: cover;
+}
+/* #welcome-section::before {
+  content: "";
+  background: black;
+} */
+.project-tile {
+  background-size: cover;
+  filter: brightness(50%);
+  height: 200px;
+  width: 20%;
+  transition-duration: 500ms;
+}
+.project-tile a {
+  font-size: 25px;
+  color: #fff;
+}
+#work1 {
+  background-image: url(https://source.unsplash.com/mxPiMiz7KCo/1024x512);
+}
+#work2 {
+  background-image: url(https://source.unsplash.com/NPlv2pkYoUA/1024x512);
+}
+#work3 {
+  background-image: url(https://source.unsplash.com/JKUTrJ4vK00/1024x512);
+}
+#work1:hover,
+#work2:hover,
+#work3:hover {
+  filter: brightness(100%);
+}
+
+#work1:hover > a,
+#work2:hover > a,
+#work3:hover > a {
+  color: #007bff;
+}
+.contact-item {
+  margin: 0 35px;
+}
+.contact-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.contact-item:first-child {
+  margin-left: 0;
+}
+.contact-item:last-child {
+  margin-right: 0;
+}
+.contact-item i {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+footer {
+  text-align: center;
+  background: #333;
+}
